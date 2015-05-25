@@ -1,0 +1,1424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ajax",
+				"ajaxOptions"
+			],
+			[
+				"RenderC",
+				"renderCollapse"
+			],
+			[
+				"listin",
+				"listingsPerPage"
+			],
+			[
+				"Res",
+				"ResultSet"
+			],
+			[
+				"aspe",
+				"aspectRatioImg"
+			],
+			[
+				"asp",
+				"aspectRatio"
+			],
+			[
+				"resiz",
+				"resizeThrottle"
+			],
+			[
+				"route",
+				"routeSpecificCSS"
+			],
+			[
+				"legac",
+				"legacyCSS"
+			],
+			[
+				"rege",
+				"regexMatches"
+			],
+			[
+				"data",
+				"dataLoaded"
+			],
+			[
+				"rec",
+				"recIncludes"
+			],
+			[
+				"get",
+				"getIncludes"
+			],
+			[
+				"incl",
+				"includeLinkTmpl"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"all",
+				"allComponents"
+			],
+			[
+				"require",
+				"requirements"
+			],
+			[
+				"filer",
+				"filerevJSON"
+			],
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"file",
+				"filerev"
+			],
+			[
+				"append",
+				"appendComponent"
+			],
+			[
+				"app",
+				"appendComponent"
+			],
+			[
+				"sourceS",
+				"sourceStyles"
+			],
+			[
+				"must",
+				"mustache_settings_path"
+			],
+			[
+				"Musta",
+				"Mustache_Settings"
+			],
+			[
+				"set",
+				"settings_path"
+			],
+			[
+				"tmpl",
+				"tmplUsers2"
+			],
+			[
+				"is",
+				"isAlternative"
+			],
+			[
+				"sour",
+				"sourceDir"
+			],
+			[
+				"conte",
+				"contextAlternative"
+			],
+			[
+				"install",
+				"installPrompt"
+			],
+			[
+				"pro",
+				"processJSON"
+			],
+			[
+				"ex",
+				"existsSync"
+			],
+			[
+				"instal",
+				"installedFile"
+			],
+			[
+				"inst",
+				"installed"
+			],
+			[
+				"insta",
+				"installedFile"
+			],
+			[
+				"bow",
+				"sourceBowerDir"
+			],
+			[
+				"fares",
+				"faresInformation"
+			],
+			[
+				"defGet",
+				"defGetAwaitDOMReady"
+			],
+			[
+				"define",
+				"defineGetParent"
+			],
+			[
+				"object",
+				"objectCreatePolyfill"
+			],
+			[
+				"bas",
+				"baseUrl"
+			],
+			[
+				"wait",
+				"waitingClass"
+			],
+			[
+				"empt",
+				"emptyClass"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 440,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"svnupda",
+				"SVN: Update"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"razor",
+				"Set Syntax: Razor"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"synhtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"themset",
+				"Themr: Toggle Theme Settings"
+			],
+			[
+				"themeset",
+				"Themr: Toggle Theme Settings"
+			],
+			[
+				"them",
+				"Themr: Toggle Theme Settings"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"editorconf",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"prettyf",
+				"HTMLPrettify"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: Save to Source Directory"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Save to Source Directory"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rever",
+				"File: Revert"
+			],
+			[
+				"synless",
+				"Set Syntax: LESS"
+			],
+			[
+				"rev",
+				"File: Revert"
+			],
+			[
+				"synphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"snjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 277.0,
+		"history":
+		[
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/mddocs",
+		"/D/Projects/mddocs/app"
+	],
+	"file_history":
+	[
+		"/D/Projects/mddocs/mddocs.json",
+		"/C/Repositories/boilerplate/UI/main.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/utils/rivets.binders.checkboxgroup.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/utils/rivets.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/jqueryui/ui/datepicker.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/layouts/Master Layout.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/layouts/Page Header Layout.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/styles/lib/mixins/_position.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/styles/lib/mixins/_accessability.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/src/binders.coffee",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/features/ImageAspect/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/components/HtmlHead/view.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/layouts/Small Page Header Layout.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Code/Helpers.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Prefetch/Master.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/main.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/features/ImageAspect/_styles.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/imagesloaded/imagesloaded.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/images/icons/icons_md-accommodation.svg",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Icons.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets-backbone-adapter/rivets-backbone.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/docs/fonts/proxima-nova/ProximaNova-RegIt-webfont.svg",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/README_UI.md",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/video.js/src/js/poster.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/Sitecore.Publishing.Optimizations.config.example",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/package.json",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Listings/List/view.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Listings/List/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Listings/List/_styles.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/data/ListingModel.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/src/bindings.coffee",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/data/ListingCollection.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/LaubPlusCo.NotFoundItem.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Data/license.xml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/docs/fonts/proxima-nova/ProximaNova-SboldIt-webfont.svg",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/docs/css/responsive.styl",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/README.md",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Data/license.txt",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Custom.Listings.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/data/ListingPagerModel.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Listings/Pager/view.cshtml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/styles/base/_buttons.scss",
+		"/D/Projects/FCV/Boilerplate/Gruntfile.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/rivets/dist/rivets.bundled.min.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/bower.json",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/data/ListingProvider.js",
+		"/C/Users/Qreative/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Commands.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/sitemap.aspx.designer.cs",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/sitemap.aspx",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/MimeTypes.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/backbone/backbone.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/modernizr/feature-detects/battery-api.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Prototypes.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/Sitecore.Publishing.Recovery.config.example",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/layouts/Page Footer Layout.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Grouping/Filters/_styles.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/styles/base/_forms.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Grouping/Filters/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/Utilities/UIAsset.cs",
+		"/D/Projects/WestJet/Dev/Branches/20141216_rebranding/htdocs/sites/all/themes/ebrochure/UI/utils/api.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/.csscomb.json",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/odcjs/src/ODC.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/typeahead.js/src/typeahead/html.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/typeahead.js/doc/jquery_typeahead.md",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/components/HeroImgVid/view.cshtml",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/styles/base/_layout.scss",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/modernizr/feature-detects/css-calc.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/modernizr/feature-detects/css-scrollbars.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/Sitecore.ContentSearch.DefaultConfigurations.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/SitecoreSettings.config.example",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/Sitecore.SegmentBuilder.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/Include/Sitecore.Speak.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/jquery/src/effects/animatedSelector.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/jquery/src/ajax.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/modernizr/feature-detects/css-filters.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/App_Config/FieldTypes.config",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/modernizr/feature-detects/forms-inputnumber-l10n.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI_build/filerev.json",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/video.js/lang/fr.json",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/bower/jquery-validation/src/additional/require_from_group.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/Listings/Filters/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/features/Uniform/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/utils/breakpoints.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/ContactUs/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/NewsletterSignup/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/grunt.bat",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/UI/features/Collapse/script.js",
+		"/D/Projects/TSK/Dev/trunk/Code Files/TourismSask/TourismSask/Views/SaskSecret/List/view.cshtml",
+		"/C/Users/Qreative/AppData/Roaming/Sublime Text 3/Packages/User/SVN.errors.log",
+		"/C/Projects/FCV/FCV.ca/Dev/fcv-ca-docs/basics/serversetup.md",
+		"/C/Projects/FCV/FCV.ca/Dev/fcv-ca/config/mongo.json",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/modernizr/feature-detects/script-async.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bundles/Listings/styles.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/modernizr/feature-detects/css-filters.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/modernizr/feature-detects/forms-inputnumber-l10n.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/styles/base/_forms.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/odcjs/src/ODC.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/backbone/package.json",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/features/Collapse/_styles.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/features/Collapse/script.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/styles/lib/_colors.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Analytics.config",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/modernizr/feature-detects/css-objectfit.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/App_Config/Commands.config",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/App_Config/LanguageDefinitions.config",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Data/license.xml",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/modernizr/feature-detects/unicode.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/underscore/underscore.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/README_UI.html",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/App_Config/Include/Sitecore.Analytics.Processing.Services.config",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/App_Config/Include/Sitecore.Analytics.config",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/layouts/Sample layout.aspx",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/components/HeroImgVid/script.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/components/HeroImgVid/_styles.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/components/HeroImgVid/view.cshtml",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/App_Code/Helpers.cshtml",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/components/SearchForm/script.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Gruntfile.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/vendor/jquery.uniform.amd.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/bower/jquery.uniform/jquery.uniform.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/Menu/Main.cshtml",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/styles/base/fonts/_icons.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/UI/data/ListingProvider.js",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/SaskSecret/Sask Secrets List/view.cshtml",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/Listings/Filters/_styles.scss",
+		"/C/inetpub/wwwroot/tourism-sask/TourismSask/Views/Styleguide/view.cshtml"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+			"<project>",
+			"D:\\Projects\\FCV\\Boilerplate2\\UI",
+			"D:\\Projects\\FCV\\Boilerplate2\\",
+			"D:\\Projects\\FCV\\Boilerplate 2\\",
+			"D:\\Projects\\FCV\\Boilerplate 2\\src\\components",
+			"D:\\Projects\\FCV\\Boilerplate 2\\src",
+			"D:\\Projects\\FCV\\Boilerplate 2",
+			"D:\\Projects\\FCV\\Boilerplate",
+			"D:\\Projects\\FCV\\Boilerplate\\src\\bower_components\\bootstrap-sass-official\\vendor\\assets\\stylesheets\\bootstrap",
+			"D:\\Projects\\FCV\\lesshatext",
+			"<project>,*.less",
+			"<project>",
+			"D:\\Projects\\FCV\\ODC.js",
+			"D:\\Projects\\FCV\\Drupal\\sites\\all\\themes\\zen_bp",
+			"C:\\Projects\\FCV\\Boilerplate",
+			"D:\\Projects\\FCV\\Drupal\\sites\\all\\themes\\bootstrap",
+			"",
+			"D:\\Projects\\Metrolinx\\Go Mobile\\Development\\trunk\\htdocs\\src\\",
+			"D:\\Projects\\Metrolinx\\Go Mobile\\Development\\trunk\\htdocs\\src\\tmpl,*.tmpl",
+			"D:\\Projects\\Metrolinx\\Go Mobile\\Development\\trunk\\htdocs\\src\\scripts,*.ojs,*.coffee",
+			"D:\\Projects\\Metrolinx\\Go Mobile\\Development\\trunk\\htdocs\\src\\scripts\\konf,*.ojs,*.coffee",
+			"D:\\Projects\\Metrolinx\\Go Mobile\\Development\\trunk\\htdocs\\src\\scripts\\konf,*.ojs",
+			"",
+			"D:\\Projects\\FCV Boilerplate\\responsive\\FCV\\src",
+			"D:\\Projects\\FCV Boilerplate\\responsive\\js\\Site",
+			"<project>,-_docs/*,-node_modules/*",
+			"D:\\Projects\\FCV Boilerplate\\responsive\\FCV\\src",
+			"<project>,-_docs/*,-node_modules/*",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"rules[param]",
+			"date-picker",
+			"\"input\"",
+			"'input'",
+			", 'features/DatePicker/script'",
+			"binding.",
+			"binding",
+			".value",
+			"input",
+			"change",
+			"date",
+			"update",
+			"layout",
+			", ",
+			"card",
+			".value",
+			"@import \"compass",
+			"@include",
+			"data.listing.get",
+			"listings__list__item--listings",
+			"thumbnail",
+			"32",
+			".bind(",
+			"new Rivets.View",
+			"bind:",
+			"new Rivets.View",
+			"<h1 class=\"listings-item-title\"><a rv-text='listing:title' rv-href='listing:url'></a></h1>",
+			"cssmin",
+			"lega",
+			"disabled",
+			"initialized",
+			"findHook",
+			"@{ Layout = ",
+			"icons",
+			"initialized",
+			"data",
+			"\n",
+			"exists",
+			"viewsDir",
+			"page-header",
+			"break",
+			"features/Breakpoints",
+			"icon",
+			"icons",
+			"\"",
+			"components",
+			"features/break",
+			"applyH",
+			"image",
+			"Extensions",
+			"is-",
+			"disabled",
+			"[is-",
+			"is-",
+			"attr('is",
+			"[is-",
+			"attr('is",
+			"$list",
+			"ListingPagerModel",
+			"pager",
+			"updatePage",
+			"extend",
+			".",
+			":",
+			"legend",
+			"extend",
+			"Submit",
+			"select",
+			"0 ",
+			"2px",
+			" - 2px",
+			"prev",
+			"^",
+			"div",
+			"<button ",
+			"RenderButtons",
+			"RenderIcons",
+			"@MenuTree",
+			" for=\"\"",
+			"1",
+			"data-hook",
+			"menu",
+			"menu__",
+			"menu",
+			"menu__",
+			"9",
+			"this.$el",
+			"role",
+			"white",
+			"grey",
+			"renderForms",
+			"renderCollapse",
+			"RenderWrapper",
+			"sgcl-item",
+			"&",
+			"target",
+			"this.model.get('listingsPerPage')",
+			"this.model.get('page')",
+			"on-click",
+			"btn--icon-only",
+			" btn--icon-only",
+			"\"btn",
+			"\"btn\"",
+			":",
+			"\"",
+			"menu-icon",
+			"filter:",
+			"* ",
+			"normal",
+			"18px",
+			"callout-link",
+			"regular",
+			"footer-nav-links",
+			"/ ",
+			"/",
+			"regular",
+			"description",
+			"callout title",
+			" RenderIntro",
+			" Helpers.",
+			"<div class=\"icon-",
+			"webfont",
+			"icons",
+			"icon-lg",
+			"bps",
+			"Html.Raw",
+			"\\\"",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"features/$1/script",
+			"wait-state-",
+			"rootPath",
+			"hgn!",
+			"hbs!",
+			"main-nav",
+			"top-nav",
+			"bower",
+			"; @",
+			"; ",
+			"ODC",
+			"that = this",
+			"processStations",
+			"<%= info.buildDir %>/",
+			"<%= info.sourceDir %>/",
+			"@protected",
+			"jsoptimize",
+			"Novascreen/jquery.waiting",
+			"jQuery Waiting",
+			"\"shadow_offset\": [0, 0]",
+			"  //\"shadow_offset"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 440,
+						"regions":
+						{
+							"gutter_color_256":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgb(255, 255, 255).png",
+								"regions":
+								[
+									[
+										256,
+										295
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_313":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgb(255, 255, 255).png",
+								"regions":
+								[
+									[
+										313,
+										341
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_342":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgb(0, 0, 0).png",
+								"regions":
+								[
+									[
+										342,
+										375
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_395":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff5353.png",
+								"regions":
+								[
+									[
+										395,
+										412
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_400":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ff5353.png",
+								"regions":
+								[
+									[
+										395,
+										412
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_7":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fafafa.png",
+								"regions":
+								[
+									[
+										7,
+										29
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_93":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										93,
+										107
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/NovaScreen (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 135.0
+	},
+	"pinned_build_system": "",
+	"project": "mddocs.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mainjs",
+				"UI source\\main.js"
+			],
+			[
+				"filtercshtml",
+				"Views\\Grouping\\Filters\\view.cshtml"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"rivets",
+				"UI\\utils\\rivets.js"
+			],
+			[
+				"rivetsjs",
+				"UI\\utils\\rivets.js"
+			],
+			[
+				"headcshtml",
+				"Views\\components\\HtmlHead\\view.cshtml"
+			],
+			[
+				"headcsht",
+				"Views\\components\\HtmlHead\\view.cshtml"
+			],
+			[
+				"headcsmtl",
+				"Views\\components\\HtmlHead\\view.cshtml"
+			],
+			[
+				"imageaspsc",
+				"UI\\features\\ImageAspect\\script.js"
+			],
+			[
+				"rivbinder",
+				"UI\\bower\\rivets\\src\\binders.coffee"
+			],
+			[
+				"posiscs",
+				"UI\\styles\\lib\\mixins\\_position.scss"
+			],
+			[
+				"listmodel",
+				"UI\\data\\ListingModel.js"
+			],
+			[
+				"rivetrsbin",
+				"UI\\bower\\rivets\\src\\bindings.coffee"
+			],
+			[
+				"main",
+				"UI\\main.js"
+			],
+			[
+				"listlistvi",
+				"Views\\Listings\\List\\view.cshtml"
+			],
+			[
+				"rivetsbindin",
+				"UI\\bower\\rivets\\src\\bindings.coffee"
+			],
+			[
+				"buttonsscs",
+				"UI\\styles\\base\\_buttons.scss"
+			],
+			[
+				"pagervie",
+				"Views\\Listings\\Pager\\view.cshtml"
+			],
+			[
+				"pager",
+				"UI\\data\\ListingPagerModel.js"
+			],
+			[
+				"backbone",
+				"UI\\bower\\backbone\\backbone.js"
+			],
+			[
+				"provider",
+				"UI\\data\\ListingProvider.js"
+			],
+			[
+				"odc",
+				"UI\\bower\\odcjs\\src\\ODC.js"
+			],
+			[
+				"htmlhead",
+				"Views\\components\\HtmlHead\\view.cshtml"
+			],
+			[
+				"headercs",
+				"Views\\layouts\\Page Header Layout.cshtml"
+			],
+			[
+				"csscom",
+				".csscomb.json"
+			],
+			[
+				"providejs",
+				"UI\\data\\ListingProvider.js"
+			],
+			[
+				"fitlerscr",
+				"Views\\Grouping\\Filters\\script.js"
+			],
+			[
+				"filterscss",
+				"Views\\Grouping\\Filters\\_styles.scss"
+			],
+			[
+				"formscss",
+				"UI\\styles\\base\\_forms.scss"
+			],
+			[
+				"filterscripjs",
+				"Views\\Listings\\Filters\\script.js"
+			],
+			[
+				"collapse",
+				"UI\\features\\Collapse\\script.js"
+			],
+			[
+				"layoutsscs",
+				"UI\\styles\\base\\_layout.scss"
+			],
+			[
+				"uniform",
+				"UI\\features\\Uniform\\script.js"
+			],
+			[
+				"readm",
+				"README_UI.md"
+			],
+			[
+				"readme",
+				"README_UI.html"
+			],
+			[
+				"sasksecv",
+				"Views\\SaskSecret\\List\\view.cshtml"
+			],
+			[
+				"heroimg",
+				"Views\\components\\HeroImgVid\\view.cshtml"
+			],
+			[
+				"helpers",
+				"App_Code\\Helpers.cshtml"
+			],
+			[
+				"sasksecview",
+				"Views\\SaskSecret\\List\\view.cshtml"
+			],
+			[
+				"bundleslist",
+				"UI\\bundles\\Listings\\scripts.js"
+			],
+			[
+				"bundleslisting",
+				"UI\\bundles\\Listings\\scripts.js"
+			],
+			[
+				"bundlesscip",
+				"UI\\bundles\\Listings\\scripts.js"
+			],
+			[
+				"iconsscss",
+				"UI\\styles\\base\\_icons.scss"
+			],
+			[
+				"forms",
+				"UI\\styles\\base\\_forms.scss"
+			],
+			[
+				"bundleslisscs",
+				"UI\\bundles\\Listings\\styles.scss"
+			],
+			[
+				"proiv",
+				"UI\\data\\ListingProvider.js"
+			],
+			[
+				"listsci",
+				"Views\\Listings\\List\\script.js"
+			],
+			[
+				"icons",
+				"UI\\styles\\base\\_icons.scss"
+			],
+			[
+				"amountvi",
+				"Views\\Listings\\Amount\\view.cshtml"
+			],
+			[
+				"uniformsc",
+				"UI\\features\\Uniform\\script.js"
+			],
+			[
+				"buttons",
+				"UI\\styles\\base\\_buttons.scss"
+			],
+			[
+				"stylegui",
+				"Views\\Styleguide\\view.cshtml"
+			],
+			[
+				"buttns",
+				"UI\\styles\\base\\_buttons.scss"
+			],
+			[
+				"gruntfil",
+				"Gruntfile.js"
+			],
+			[
+				"uniformscipt",
+				"UI\\features\\Uniform\\script.js"
+			],
+			[
+				"styleguid",
+				"Views\\Styleguide\\view.cshtml"
+			],
+			[
+				"styleguics",
+				"Views\\Styleguide\\view.cshtml"
+			],
+			[
+				"stylegucs",
+				"C:\\inetpub\\wwwroot\\tourism-sask\\TourismSask\\App_Code\\Styleguide.cshtml"
+			],
+			[
+				"heroscss",
+				"Views\\components\\HeroImgVid\\_styles.scss"
+			],
+			[
+				"button",
+				"UI\\styles\\base\\_buttons.scss"
+			],
+			[
+				"listingresscss",
+				"Views\\Listings\\ListingResults\\_styles.scss"
+			],
+			[
+				"menucs",
+				"Views\\Menu\\Main.cshtml"
+			],
+			[
+				"pagermod",
+				"UI\\data\\ListingPagerModel.js"
+			],
+			[
+				"listresucsht",
+				"Views\\Listings\\ListingResults\\view.cshtml"
+			],
+			[
+				"collapsjs",
+				"UI\\features\\Collapse\\script.js"
+			],
+			[
+				"provi",
+				"UI\\data\\ListingProvider.js"
+			],
+			[
+				"hero",
+				"Views\\components\\HeroImgVid\\view.cshtml"
+			],
+			[
+				"colors",
+				"UI\\styles\\lib\\_colors.scss"
+			],
+			[
+				"collapsejs",
+				"UI\\features\\Collapse\\script.js"
+			],
+			[
+				"herocs",
+				"Views\\components\\HeroImgVid\\view.cshtml"
+			],
+			[
+				"color",
+				"UI\\styles\\lib\\_colors.scss"
+			],
+			[
+				"collapsscs",
+				"UI\\features\\Collapse\\_styles.scss"
+			],
+			[
+				"packagejs",
+				"package.json"
+			],
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"aspectsc",
+				"UI\\features\\ImageAspect\\script.js"
+			],
+			[
+				"imageaspscs",
+				"UI\\features\\ImageAspect\\_styles.scss"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"odcjs",
+				"UI\\bower\\odcjs\\src\\ODC.js"
+			],
+			[
+				"collapjs",
+				"UI\\features\\Collapse\\script.js"
+			],
+			[
+				"mainscss",
+				"UI\\main.scss"
+			],
+			[
+				"breakpointsscss",
+				"UI\\bower\\breakpoints-sass\\src\\_breakpoints.scss"
+			],
+			[
+				"searchscr",
+				"UI source\\views\\example\\movie-search\\script.js"
+			],
+			[
+				"config",
+				"root\\config.json"
+			],
+			[
+				"conf",
+				"root\\config.json"
+			],
+			[
+				"examplejs",
+				"root\\example.js"
+			],
+			[
+				"indexhbs",
+				"root\\UI\\routes\\home\\index.hbs"
+			],
+			[
+				"exampljs",
+				"root\\example.js"
+			],
+			[
+				"gruntfi",
+				"root\\Gruntfile.js"
+			],
+			[
+				"sgbodsc",
+				"UI source\\components\\sg-body\\_sg-body.scss"
+			],
+			[
+				"grunt",
+				"root\\Gruntfile.js"
+			],
+			[
+				"sg-appjs",
+				"root\\src\\components\\sg-app\\sgApp.js"
+			],
+			[
+				"sg-app",
+				"root\\src\\components\\sg-app\\sg-app.mustache"
+			],
+			[
+				"sgappjs",
+				"root\\src\\components\\sg-app\\sg-app.js"
+			],
+			[
+				"sgapp",
+				"UI source\\components\\sg-app\\sg-app.js"
+			],
+			[
+				"colorsscss",
+				"Boilerplate\\src\\lib\\_colors.scss"
+			],
+			[
+				"contextjs",
+				"Breakpoints-Sass\\demo\\context.js"
+			],
+			[
+				"boilerplatecontext",
+				"Boilerplate\\src\\scripts\\Site\\context.js"
+			],
+			[
+				"_statio",
+				"src\\scripts\\konf\\GO.util\\_stations.coffee"
+			],
+			[
+				"pickstatlis",
+				"src\\scripts\\GO\\features\\pickStation\\PickStationList.coffee"
+			],
+			[
+				"buttonscss",
+				"src\\sass\\base\\_button_action.scss"
+			],
+			[
+				"googletmp",
+				"src\\tmpl\\pages\\google.tmpl"
+			],
+			[
+				"ecomme",
+				"src\\scripts\\GO\\pages\\ServiceEComment.coffee"
+			],
+			[
+				"google",
+				"src\\scripts\\GO\\pages\\Google.coffee"
+			],
+			[
+				"pickstat",
+				"src\\scripts\\GO\\features\\pickStation\\PickStationToolbar.coffee"
+			],
+			[
+				"pickstattmp",
+				"htdocs\\src\\tmpl\\features\\pick_station\\_pick_station.tmpl"
+			],
+			[
+				"pickstationtmp",
+				"htdocs\\src\\tmpl\\features\\pick_station\\_pick_station.tmpl"
+			],
+			[
+				"pickstationscs",
+				"htdocs\\src\\sass\\features\\pick_station\\_pick_station.scss"
+			],
+			[
+				"fromtotm",
+				"htdocs\\src\\tmpl\\features\\pick_station\\_pick_from_to.tmpl"
+			],
+			[
+				"iconsscs",
+				"htdocs\\src\\sass\\base\\_icons.scss"
+			],
+			[
+				"fromto",
+				"htdocs\\src\\scripts\\GO\\features\\pickStation\\PickFromTo.coffee"
+			],
+			[
+				"travellings",
+				"htdocs\\src\\scripts\\GO\\pages\\TravellingStations.coffee"
+			],
+			[
+				"picksta",
+				"htdocs/src/scripts/GO/features/pickStation/PickStation.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Projects\\TSK\\Dev\\trunk\\Code Files\\TourismSask\\TourismSask\\UI\\features\\ImageAspect\\getLatLong.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 439.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

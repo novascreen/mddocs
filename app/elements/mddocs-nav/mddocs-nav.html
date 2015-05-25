@@ -1,0 +1,28 @@
+<link rel="import" href="..\..\bower_components/polymer/polymer.html">
+
+<polymer-element name="mddocs-nav" attributes="itemsjson items depth">
+  <template>
+    <link rel="stylesheet" href="mddocs-nav.css">
+
+    <core-submenu>
+      <template repeat="{{item in items}}">
+        <mddocs-nav-item item="{{item}}" depth="{{ depth }}"></mddocs-nav-item>
+      </template>
+    </core-submenu>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        depth: 0,
+        itemsjson: '',
+        items: [],
+        // define element prototype here
+        ready: function () {
+          if (this.itemsjson) {
+            this.items = JSON.parse(this.itemsjson)
+          }
+        }
+      });
+    })();
+  </script>
+</polymer-element>

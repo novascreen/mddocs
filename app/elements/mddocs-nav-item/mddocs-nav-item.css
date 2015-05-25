@@ -1,0 +1,59 @@
+:host {
+  display: block;
+}
+
+paper-item {
+  padding-left: .5em;
+}
+
+core-icon {
+  margin-right: .5em;
+}
+
+paper-item[depth="1"] {
+  padding-left: 1em;
+}
+
+paper-item[depth="2"] {
+  padding-left: 1.5em;
+}
+
+paper-item[depth="3"] {
+  padding-left: 2em;
+}
+
+paper-item[depth="4"] {
+  padding-left: 2.5em;
+}
+
+paper-item[depth="5"] {
+  padding-left: 3em;
+}
+
+paper-item[depth="6"] {
+  padding-left: 3.5em;
+}
+
+paper-item[depth="7"] {
+  padding-left: 4em;
+}
+
+paper-item[depth="8"] {
+  padding-left: 4.5em;
+}
+
+paper-item[depth="9"] {
+  padding-left: 5em;
+}
+
+paper-item[depth="10"] {
+  padding-left: 5.5em;
+}
+
+:host paper-item::content > a {
+  display: inline;
+}
+
+:host paper-item::shadow .button-content {
+  padding: 0.6em 0.5em 0.6em 0;
+}

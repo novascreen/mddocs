@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+
+paper-item {
+  padding-left: .5em;
+}
+
+core-icon {
+  margin-right: .5em;
+}
+
+@for $i from 1 through 10 {
+  paper-item[depth='#{$i}'] {
+    padding-left: ($i + 1) * .5em;
+  }
+}
+
+:host paper-item::content > a {
+  display: inline;
+}
+
+:host paper-item::shadow .button-content {
+  padding: .6em .5em .6em 0;
+}

@@ -1,0 +1,51 @@
+<link rel="import" href="..\..\bower_components/polymer/polymer.html">
+
+<polymer-element name="mddocs-nav-item" attributes="item depth">
+  <template>
+    <link rel="stylesheet" href="mddocs-nav-item.css">
+
+    <paper-item id="container" on-click="{{toggle}}" depth="{{depth}}" noink>
+      <template if="{{item.title}}">
+
+        <core-icon icon="{{icon}}"></core-icon>
+        <template if="{{item.file}}">
+          <a href="/docs/{{ item.slug }}">{{item.title}}</a>
+        </template>
+        <template if="{{!item.file}}">
+          {{item.title}}
+        </template>
+      </template>
+    </paper-item>
+    <template if="{{item.children.length}}">
+      <core-collapse id="collapse">
+        <mddocs-nav items="{{item.children}}" depth="{{ depth + 1 }}"></mddocs-nav>
+      </core-collapse>
+    </template>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        depth: 0,
+        icon: 'description',
+        item: {},
+        // define element prototype here
+        ready: function () {
+          if (this.$.collapse) {
+            this.updateIcon();
+          }
+        },
+
+        updateIcon: function () {
+            this.icon = this.$.collapse.opened ? 'folder' : 'folder-open';
+        },
+
+        toggle: function () {
+          if (this.$.collapse) {
+            this.updateIcon();
+            this.$.collapse.toggle();
+          }
+        }
+      });
+    })();
+  </script>
+</polymer-element>

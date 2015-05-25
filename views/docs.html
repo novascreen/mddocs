@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% macro nav(children, depth = 0) %}
+  <ul>
+    {% for child in children %}
+      <li>
+        {% if child.title %}
+          <div>
+            {% if child.file %}
+              <a href="/docs/{{ child.slug }}">{{child.title}}</a>
+            {% else %}
+              {{ child.title }}
+            {% endif %}
+          </div>
+        {% endif %}
+        {% if child.children %}
+          {{ nav(child.children, depth + 1) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+{% block aside %}
+  <mddocs-nav itemsjson='{{page.docs.navJSON}}'></mddocs-nav>
+ {#} <nav>
+    {{ nav(page.docs.nav) }}
+  </nav>#}
+
+{% endblock %}
+
+{% block content %}
+  <article>
+    {{ page.docs.content }}
+  </article>
+{% endblock %}
