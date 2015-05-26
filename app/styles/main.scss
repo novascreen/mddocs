@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: #fafafa;
+  background: #fff;
   font-family: "RobotoDraft",Helvetica,Arial,sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -85,7 +85,7 @@ core-header-panel[drawer] {
   background-color: #EEE;
 }
 core-header-panel[main] main {
-  padding: 20px 50px;
+  padding: 20px;
 }
 core-toolbar {
   color: rgb(255, 255, 255);
@@ -98,4 +98,10 @@ a {
 }
 a:hover {
     text-decoration: underline
+}
+
+@media (min-width: 640px) {
+  core-header-panel[main] main {
+    padding: 20px 50px;
+  }
 }

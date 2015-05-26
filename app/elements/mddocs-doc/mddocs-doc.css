@@ -53,6 +53,7 @@ more themes: http://highlightjs.org/static/test.html
 
 ::content pre, ::content code, ::content .hljs {
   font-family: "Source Code Pro",Monaco,Menlo,Consolas,"Courier New",monospace;
+  font-weight: 300;
   background-color: #fafafa;
 }
 
