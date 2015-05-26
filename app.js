@@ -15,10 +15,10 @@ var docs = require('./routes/docs');
 var app = express();
 var config;
 try {
-  config = JSON.parse(fs.readFileSync(process.cwd() + '/mddocs.json'));
+  app.config = JSON.parse(fs.readFileSync(process.cwd() + '/.mddocs'));
 }
 catch (e) {
-  config = {
+  app.config = {
     title: 'mddocs',
     files: [{
       title: 'Docs',
@@ -66,8 +66,8 @@ app.use(sassMiddleware({
 app.use(express.static(path.join(__dirname, 'app')));
 app.use(function (req, res, next) {
     req.page = req.page || {};
-    req.page.title = config.title;
-    req.config = config;
+    req.page.title = app.config.title;
+    req.config = app.config;
 
     next();
 });
