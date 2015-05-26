@@ -18,8 +18,19 @@ try {
   config = JSON.parse(fs.readFileSync(process.cwd() + '/mddocs.json'));
 }
 catch (e) {
-  console.error('There is no mddocs.json in this directory.');
-  process.exit(1);
+  config = {
+    title: 'mddocs',
+    files: [{
+      title: 'Docs',
+      slug: 'docs',
+      pattern: [
+        '**/*.md'
+      ],
+      root: ''
+    }]
+  };
+  // console.error('There is no mddocs.json in this directory.');
+  // process.exit(1);
   // throw new Error('There is no mddocs.json in this directory.');
 }
 

@@ -14,12 +14,21 @@ router.use(function (req, res, next) {
   });
 });
 
-router.get('/', function(req, res, next) {
-  res.render('docs', { page: req.page });
-});
-
 router.get('/*', function(req, res, next) {
-  req.page.docs.content = docs.getBySlug(req.config.files, req.url);
+  var slug = req.url.replace(/\?.*?$/, '');
+
+  // redirect to first file if on index
+  if (slug === '/') {
+    if (req.page.docs.nav[0].children.length) {
+      slug = req.page.docs.nav[0].slug || req.page.docs.nav[0].children[0].slug;
+      res.redirect('/docs/' + slug);
+    }
+    else {
+      throw new Error('No files found');
+    }
+  }
+  req.page.pageName = slug.replace(/^\//, '').replace(/\//g, ' > ').replace('_', ' ');
+  req.page.docs.content = docs.getBySlug(req.config.files, slug);
   res.render('docs', { page: req.page });
 });
 

@@ -1,0 +1,42 @@
+$tag: #9f499b;
+$attr: #6b499f;
+$string: #ff4081;
+$plain: #7986cb;
+$comment: #8a8a8a;
+$keyword: #d61a7f;
+$operator: #5c6bc0;
+
+.hljs {
+  display: block; padding: 0.5em;
+  background: #fafafa;
+  color: $plain;
+}
+
+.hljs-operator {
+  color: $operator;
+}
+
+.hljs-tag,
+.hljs-title {
+  color: $tag;
+}
+
+.hljs-attribute {
+  color: $attr;
+}
+
+.hljs-value {
+  color: $plain;
+}
+
+.hljs-keyword {
+  color: $keyword;
+}
+
+.hljs-string {
+  color: $string;
+}
+
+.hljs-comment {
+  color: $comment;
+}

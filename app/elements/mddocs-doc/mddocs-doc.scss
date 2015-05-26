@@ -1,0 +1,70 @@
+:host {
+  display: block;
+}
+
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+This is the "default" highlight.js theme
+
+more themes: http://highlightjs.org/static/test.html
+
+*/
+
+
+::content {
+  @import 'highlightjs';
+  strong {
+    color: #3367d6;
+  }
+
+
+
+  pre, code, .hljs {
+    font-family: "Source Code Pro",Monaco,Menlo,Consolas,"Courier New",monospace;
+    // font-size: 1.4rem;
+    // border-radius: 3px;
+    // border: 1px solid #ebf2eb;
+    // background-color: #f8fff8;
+    background-color: #fafafa;
+  }
+  code {
+    color: #9f499b;
+  }
+  pre code {
+    color: currentcolor;
+    // font-size: 1.3rem;
+  }
+  a code {
+    color: currentcolor;
+  }
+  pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px;}
+  pre code  { border: 0px !important; background: transparent !important; line-height: 1.3em; }
+  code  { padding: 0 3px 0 3px; }
+
+  pre.good-code {
+    border-color: #ebf2eb;
+    background-color: #f8fff8;
+  }
+  pre.bad-code {
+    border-color: #f2ebeb;
+    background-color: #fff8f8;
+  }
+
+  .list-item-details {
+    list-style-type: none;
+    details > summary {
+      margin-left: -1em;
+    }
+  }
+
+  summary {
+    outline: 0;
+
+    &:hover {
+      color: #ff5353;
+    }
+  }
+}
+

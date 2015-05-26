@@ -4,7 +4,9 @@
   <template>
     <link rel="stylesheet" href="mddocs-nav-item.css">
 
-    <paper-item id="container" on-click="{{toggle}}" depth="{{depth}}" noink>
+    <paper-item id="container" on-click="{{toggle}}" depth="{{depth}}" noink
+      slug="{{item.slug}}" file="{{item.file}}"
+      inpath="{{ item.inpath }}" current="{{ item.current }}">
       <template if="{{item.title}}">
 
         <core-icon icon="{{icon}}"></core-icon>
@@ -30,7 +32,11 @@
         item: {},
         // define element prototype here
         ready: function () {
+          this.item.url = '/docs/' + this.item.slug;
+          this.item.inpath = window.location.pathname.indexOf(this.item.url) === 0
+          this.item.current = window.location.pathname === this.item.url
           if (this.$.collapse) {
+            this.$.collapse.opened = this.item.inpath
             this.updateIcon();
           }
         },

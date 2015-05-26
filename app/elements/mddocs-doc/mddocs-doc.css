@@ -1,0 +1,112 @@
+:host {
+  display: block;
+}
+
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+This is the "default" highlight.js theme
+
+more themes: http://highlightjs.org/static/test.html
+
+*/
+::content .hljs {
+  display: block;
+  padding: 0.5em;
+  background: #fafafa;
+  color: #7986cb;
+}
+
+::content .hljs-operator {
+  color: #5c6bc0;
+}
+
+::content .hljs-tag,
+::content .hljs-title {
+  color: #9f499b;
+}
+
+::content .hljs-attribute {
+  color: #6b499f;
+}
+
+::content .hljs-value {
+  color: #7986cb;
+}
+
+::content .hljs-keyword {
+  color: #d61a7f;
+}
+
+::content .hljs-string {
+  color: #ff4081;
+}
+
+::content .hljs-comment {
+  color: #8a8a8a;
+}
+
+::content strong {
+  color: #3367d6;
+}
+
+::content pre, ::content code, ::content .hljs {
+  font-family: "Source Code Pro",Monaco,Menlo,Consolas,"Courier New",monospace;
+  background-color: #fafafa;
+}
+
+::content code {
+  color: #9f499b;
+}
+
+::content pre code {
+  color: currentcolor;
+}
+
+::content a code {
+  color: currentcolor;
+}
+
+::content pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+::content pre code {
+  border: 0px !important;
+  background: transparent !important;
+  line-height: 1.3em;
+}
+
+::content code {
+  padding: 0 3px 0 3px;
+}
+
+::content pre.good-code {
+  border-color: #ebf2eb;
+  background-color: #f8fff8;
+}
+
+::content pre.bad-code {
+  border-color: #f2ebeb;
+  background-color: #fff8f8;
+}
+
+::content .list-item-details {
+  list-style-type: none;
+}
+
+::content .list-item-details details > summary {
+  margin-left: -1em;
+}
+
+::content summary {
+  outline: 0;
+}
+
+::content summary:hover {
+  color: #ff5353;
+}

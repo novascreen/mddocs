@@ -4,6 +4,8 @@
 
 paper-item {
   padding-left: .5em;
+  padding-right: .5em;
+  font-size: 1.3rem;
 }
 
 core-icon {
@@ -16,9 +18,18 @@ core-icon {
   }
 }
 
-:host paper-item::content > a {
-  display: inline;
+paper-item[inpath="true"] {
+  font-weight: bold;
 }
+
+paper-item a {
+  color: currentcolor;
+  text-decoration: none;
+}
+
+// paper-item[current="true"] {
+//   background-color: #eee;
+// }
 
 :host paper-item::shadow .button-content {
   padding: .6em .5em .6em 0;

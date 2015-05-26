@@ -1,0 +1,76 @@
+<link rel="import" href="..\..\bower_components/polymer/polymer.html">
+
+<polymer-element name="mddocs-doc" attributes="">
+  <template>
+    <link rel="stylesheet" href="mddocs-doc.css">
+    <article>
+      <content id="content"></content>
+    </article>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+        attached: function () {
+          this.extendMarkdown()
+        },
+
+        ready: function () {
+          //this.extendMarkdown()
+        },
+
+        extendMarkdown: function () {
+
+          console.log(this.$, this.querySelectorAll('li p'))
+
+          this.querySelectorAll('li p').array().forEach(function (el) {
+            var parent = el.parentNode
+
+            if (el.innerHTML.indexOf('[+-]') !== -1) {
+              var summary = document.createElement('summary')
+              summary.innerHTML = el.innerHTML.replace('[+-]', '')
+              el.remove()
+
+              var details = document.createElement('details')
+              details.appendChild(summary)
+              parent.childNodes.array().forEach(function (node) {
+                details.appendChild(node)
+              })
+
+              parent.appendChild(details)
+              parent.className += 'list-item-details'
+            }
+          })
+
+          // // collapse list items if first paragraph contains `[+-]`
+          // $('li p', $main).each(function () {
+          //   var $this = $(this);
+          //   var $parent = $this.parent();
+
+          //   if (this.innerHTML.indexOf('[+-]') !== -1) {
+          //     var $summary = $('<summary />');
+          //     $summary.html($this.html().replace('[+-]', ''));
+          //     $this.remove();
+
+          //     $('<details />')
+          //       .append($summary)
+          //       .append($parent.children())
+          //       .appendTo($parent.addClass('list-item-details'));
+          //   }
+          // });
+
+          // // identify code blocks as good or bad based on the first comment
+          // $('.hljs').each(function () {
+          //   var text = $(this).text();
+          //   if (text.match(/^[^\n]*(Not recommended|BAD)/)) {
+          //     $(this).parent().addClass('bad-code');
+          //   }
+          //   else if (text.match(/^[^\n]*(Recommended|GOOD)/)) {
+          //     $(this).parent().addClass('good-code');
+          //   }
+          // });
+        }
+      });
+    })();
+  </script>
+</polymer-element>

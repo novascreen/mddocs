@@ -23,7 +23,7 @@
       <core-header-panel drawer>
 
         <!-- Drawer Toolbar -->
-        <core-toolbar>Menu</core-toolbar>
+        <core-toolbar><a href="/docs">{{page.title}}</a></core-toolbar>
 
         {% block aside %}
         {% endblock %}
@@ -36,7 +36,7 @@
         <!-- Main Toolbar -->
         <core-toolbar>
           <paper-icon-button icon="menu" core-drawer-toggle></paper-icon-button>
-          <span>{{appName}}</span>
+          <span>{{page.pageName}}</span>
         </core-toolbar>
 
         <!-- Main Content -->
