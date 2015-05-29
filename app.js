@@ -19,12 +19,13 @@ try {
 }
 catch (e) {
   app.config = {
-    title: 'mddocs',
+    title: process.cwd().replace(/^.*?[/\\]([^/\\]*?)$/, '$1'),
     files: [{
       title: 'Docs',
       slug: 'docs',
       pattern: [
-        '**/*.md'
+        '**/*.md',
+        '**/node_modules/**/*.md'
       ],
       root: ''
     }]
