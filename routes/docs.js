@@ -20,8 +20,8 @@ router.get('/*', function(req, res, next) {
   // redirect to first file if on index
   if (slug === '/') {
     if (req.page.docs.nav[0].children.length) {
-      slug = req.page.docs.nav[0].slug || req.page.docs.nav[0].children[0].slug;
-      res.redirect('/docs/' + slug);
+      slug = req.page.docs.nav[0].file ? req.page.docs.nav[0].slug : req.page.docs.nav[0].children[0].slug;
+      res.redirect('/' + slug);
     }
     else {
       throw new Error('No files found');

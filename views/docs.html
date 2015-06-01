@@ -7,7 +7,7 @@
         {% if child.title %}
           <div>
             {% if child.file %}
-              <a href="/docs/{{ child.slug }}">{{child.title}}</a>
+              <a href="/{{ child.slug }}">{{child.title}}</a>
             {% else %}
               {{ child.title }}
             {% endif %}

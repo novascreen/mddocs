@@ -1,13 +1,5 @@
 {
   "title": "My Docs",
-  "filesBak": [{
-    "title": "Docs",
-    "slug": "docs",
-    "pattern": [
-      "../TSK/Dev/trunk/docs/**/*.md"
-    ],
-    "root": "../TSK/Dev/trunk/docs"
-  }],
   "files": [{
       "title": "Docs",
       "slug": "docs",
@@ -20,25 +12,9 @@
       "slug": "code",
       "pattern": [
         "**/*.md",
-        "!docs/**/*.md"
+        "!docs/**/*.md",
+        "!node_modules/**/*.md"
       ],
       "root": ""
-    }],
-  "filesBak": [{
-      "title": "Docs",
-      "slug": "docs",
-      "pattern": [
-        "../TSK/Dev/trunk/docs/**/*.md"
-      ],
-      "root": "../TSK/Dev/trunk/docs"
-    }, {
-      "title": "Code",
-      "slug": "code",
-      "pattern": [
-        "../TSK/Dev/trunk/Code Files/TourismSask/TourismSask/**/*.md",
-        "!../TSK/Dev/trunk/Code Files/TourismSask/TourismSask/**/node_modules/**/*.md",
-        "!../TSK/Dev/trunk/Code Files/TourismSask/TourismSask/**/UI_build/**/*.md"
-      ],
-      "root": "../TSK/Dev/trunk/Code Files/TourismSask/TourismSask"
     }]
 }

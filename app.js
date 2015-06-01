@@ -73,8 +73,9 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use('/', routes);
-app.use('/docs', docs);
+// app.use('/', routes);
+app.use('/', docs);
+// app.use('/docs', docs);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
